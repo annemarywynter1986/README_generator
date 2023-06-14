@@ -109,7 +109,7 @@ async function init() {
     
         // Pass Inquirer userResponses and GitHub userInfo to generateMarkdown
         console.log("Generating your README next...")
-        const markdown = generateMarkdown(userResponses, userInfo);
+        const markdown = generateMarkdown(userResponses);
         console.log(markdown);
     
         // Write markdown to file
