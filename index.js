@@ -3,11 +3,12 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
 
-// Internal modules
+// Internal modules that we are importing from other packages
 const api = require('./utils/api');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // Inquirer prompts for userResponses
+// documentation is based on https://www.npmjs.com/package/inquirer#documentation
 const questions = [
     {
         type: 'input',

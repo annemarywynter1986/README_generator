@@ -140,5 +140,5 @@ function generateMarkdown(userResponses, userInfo) {
   return draftMarkdown;
   
 }
-
+// module.exports is an object we use to store variables or methods
 module.exports = generateMarkdown;
