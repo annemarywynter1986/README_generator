@@ -35,7 +35,8 @@ The README has some automatically generated badges for your repo courtesy of shi
 
 ## Usage 
 
-** add demo gif here
+![Untitled design (6)](https://github.com/annemarywynter1986/README_generator/assets/130412307/c45d1d0b-95d1-4da3-b016-e5010d71ec1d)
+
 
 When you run `node index.js`, the application uses the `inquirer` package to prompt you in the command line with a series of questions about your GitHub and about your project.
 
